@@ -24,6 +24,7 @@
 		71FD30D616E5B650008F9535 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 71FD30AE16E5B650008F9535 /* Foundation.framework */; };
 		71FD30DE16E5B650008F9535 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 71FD30DC16E5B650008F9535 /* InfoPlist.strings */; };
 		71FD30E116E5B650008F9535 /* TweetTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 71FD30E016E5B650008F9535 /* TweetTests.m */; };
+		71FD30EC16E5B886008F9535 /* Social.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 71FD30EB16E5B886008F9535 /* Social.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -60,6 +61,7 @@
 		71FD30DD16E5B650008F9535 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		71FD30DF16E5B650008F9535 /* TweetTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TweetTests.h; sourceTree = "<group>"; };
 		71FD30E016E5B650008F9535 /* TweetTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TweetTests.m; sourceTree = "<group>"; };
+		71FD30EB16E5B886008F9535 /* Social.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Social.framework; path = System/Library/Frameworks/Social.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -68,6 +70,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				71FD30AD16E5B650008F9535 /* UIKit.framework in Frameworks */,
+				71FD30EC16E5B886008F9535 /* Social.framework in Frameworks */,
 				71FD30AF16E5B650008F9535 /* Foundation.framework in Frameworks */,
 				71FD30B116E5B650008F9535 /* CoreGraphics.framework in Frameworks */,
 			);
@@ -89,9 +92,9 @@
 		71FD30A016E5B650008F9535 = {
 			isa = PBXGroup;
 			children = (
+				71FD30AB16E5B650008F9535 /* Frameworks */,
 				71FD30B216E5B650008F9535 /* Tweet */,
 				71FD30D916E5B650008F9535 /* TweetTests */,
-				71FD30AB16E5B650008F9535 /* Frameworks */,
 				71FD30AA16E5B650008F9535 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -108,6 +111,7 @@
 		71FD30AB16E5B650008F9535 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				71FD30EB16E5B886008F9535 /* Social.framework */,
 				71FD30AC16E5B650008F9535 /* UIKit.framework */,
 				71FD30AE16E5B650008F9535 /* Foundation.framework */,
 				71FD30B016E5B650008F9535 /* CoreGraphics.framework */,
